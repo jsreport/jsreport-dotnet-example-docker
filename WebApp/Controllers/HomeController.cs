@@ -28,6 +28,15 @@ namespace WebApp.Controllers
                 .Recipe(Recipe.ChromePdf);         
 
             return View(InvoiceModel.Example());
-        }    
+        }
+
+        [MiddlewareFilter(typeof(JsReportPipeline))]
+        public IActionResult Items()
+        {
+            HttpContext.JsReportFeature()
+                .Recipe(Recipe.HtmlToXlsx);               
+
+            return View(InvoiceModel.Example());
+        }
     }
 }
