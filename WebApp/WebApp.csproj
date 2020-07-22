@@ -9,8 +9,8 @@
 
   <ItemGroup>
     <PackageReference Include="jsreport.AspNetCore" Version="2.1.0" />
-    <PackageReference Include="jsreport.Binary.Linux" Version="2.7.1" />
-    <PackageReference Include="jsreport.Local" Version="2.2.2" />    
+    <PackageReference Include="jsreport.Binary.Linux" Version="2.9.0" />
+    <PackageReference Include="jsreport.Local" Version="2.2.3" />    
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
   </ItemGroup>  
 
