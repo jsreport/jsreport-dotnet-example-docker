@@ -10,7 +10,7 @@
   <ItemGroup>
     <PackageReference Include="jsreport.AspNetCore" Version="3.8.0" />
     <PackageReference Include="jsreport.Binary.Linux" Version="3.8.0" />
-    <PackageReference Include="jsreport.Local" Version="3.8.0" />    
+    <PackageReference Include="jsreport.Local" Version="3.8.1" />    
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.8" />
   </ItemGroup>  
 
